@@ -1,0 +1,104 @@
+Description of the attributes (columns) in the data and their values:
+
+Attribute X01: Status of existing checking account of the customer
+A11: X01 < 0 EUR
+A12: 0 <= X01 < 200 EUR
+A13: X01 >= 200 EUR
+A14: no checking account
+
+Attribute X02: Duration of the credit (requested by the customer from the bank) in month
+
+Attribute X03: Credit history of the customer
+A30: no credits taken or all credits paid back duly
+A31: all credits at this bank paid back duly
+A32: existing credits paid back duly till now
+A33: delay in paying off in the past
+A34: critical account or other credits existing (not at this bank)
+
+Attribute X04: Purpose of the credit
+A40: car (new)
+A41: car (used)
+A42: furniture/equipment
+A43: radio/television
+A44: domestic appliances
+A45: repairs
+A46: education
+A47: vacation
+A48: retraining
+A49: business
+A410: others
+
+Attribute X05: Credit amount in EUR
+
+Attibute X06: Savings account/bonds of the customer
+A61: X06 < 100 EUR
+A62: 100 <= X06 < 500 EUR
+A63: 500 <= X06 < 1000 EUR
+A64: X06 >= 1000 EUR
+A65: unknown/no savings account
+
+Attribute X07: Present employment of teh customer since
+A71: unemployed
+A72: X07 < 1 year
+A73: 1 <= X07 < 4 years  
+A74: 4 <= X07 < 7 years
+A75: X07 >= 7 years
+
+Attribute X08: Installment rate in percentage of disposable income
+
+Attribute X09: Personal status and sex of the customer
+A91: male - divorced/separated
+A92: female - divorced/separated/married
+A93: male - single
+A94: male - married/widowed
+A95: female - single
+
+Attribute X10: Other debtors or guarantors for the credit
+A101: none
+A102: co-applicant
+A103: guarantor
+
+Attribute X11: Present residence of the customer since (in years)
+
+Attribute X12: Property owned by the customer
+A121: real estate
+A122: if not A121 - building society savings agreement/life insurance
+A123: if not A121/A122 - car or other, not in attribute X06
+A124: unknown/no property
+
+Attribute X13: Age of the customer in years
+
+Attribute X14: Other installment plans of the customer
+A141: bank
+A142: stores
+A143: none
+
+Attribute X15: Housing situation of the customer
+A151: renting
+A152: owning
+A153: accommodation (ie. living) for free
+
+Attribute X16: Number of existing credits of the customer at this bank
+
+Attribute X17: Job situation of the customer
+A171: unemployed/unskilled  - non-resident
+A172: unskilled - resident
+A173: skilled employee/official
+A174: management/self-employed/highly qualified employee/officer
+
+Attribute X18: Number of people the customer being liable to provide maintenance for
+
+Attribute X19: Telephone of the customer (Note: the data are from 1994, having a phone was not usual back then)
+A191: none
+A192: yes, registered under the customers name
+
+Attribute X20: if the customer is a foreign worker
+A201: yes
+A202: no
+
+Attribute Y: label
+1 = good customer, ie. paid back the requested credit (see the attributes X02, X04, X05)
+2 = bad customer, ie. did not pay back the requested credit (see the attributes X02, X04, X05)
+
+Please, note, that it is five times worse to classify customers as good when they are bad than it is to classify customers bad when they are good!
+
