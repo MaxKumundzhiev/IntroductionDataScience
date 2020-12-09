@@ -15,5 +15,11 @@ Dataset consist of 1000 records (1000 customers), where each customer is represe
 ## Features
 Features description can be found in  `data_description.txt` file. 
 
+## Models Comparison
+|#       |dataset_v0_catboost_v0|dataset_v1_catboost_v0|dataset_v1_catboost_v1|dataset_v1_xgboost_classifier_v0|dataset_v1_xgboost_classifier_v1|
+|---     |---                   |---                   |---                    |---                            |---                             |
+|accuracy|0.736667              |0.962857              |0.968571               |0.967143	                     |0.962857                        |
+          			
 
+				
 
